@@ -17,6 +17,11 @@
 <header>
     <!-- Navigation -->
     <div class="mainNavigation wrapper">
+
+        <input type="checkbox" id="navToggle" class="navToggle">
+        <label for="navToggle" class="navToggle-label">
+            <span></span>
+        </label>
         <nav>
             <ul class="mainNav">
                 <li><a href="#">Home</a></li>
@@ -33,11 +38,16 @@
             </div>
             <div class="nav__content__text">
 
-                <div class="nav__content_textImage">
+                <div class="main__heading">
+                    <h1 class="main__heading--title">
+                    HARPER
+                    </h1> 
+                    <div class="nav__content__textImage">
                     <img src="./assets/circle-text.png" alt="circle-text">
+                    </div>
                 </div>
 
-                <h1>HARPER</h1>
+                
             </div>
         </div>
     </div>
@@ -48,14 +58,14 @@
 <!-- *************************************************************************************** -->
 <main>
     <!-- Section with Who's Harper Text STARTS!!-->
-    <section class="wrapper">
-        <div class="section__one">
+    <section class="section__one">
+        <div class="wrapper">
             <div class="section__text">
                 <h2>Who's Harper ?</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error at vero dolore rem repellat explicabo
                     illo delectus sint voluptatem ad dicta porro cum optio aliquid dolorem, tenetur corrupti, in quod.
                 </p>
-                <button>Find Out More</button>
+                <button class="btn">Find Out More</button>
             </div>
         </div>
     </section>
@@ -119,9 +129,9 @@
 
     <!-- Section with image and text quarter STARTS!! -->
 
-    <section class="boxFlex">
+    <section class="boxFlex wrapper2">
         <div class="box box1">
-            <div>
+            <div class="box1__img">
                 <img src="./assets/home-image-3.jpg"
                     alt="picture of setting sun in the background, with waves in the foreground">
             </div>
@@ -135,11 +145,11 @@
                     autem vel
                     voluptates odio dolores. Ab, a! Officiis labore quis deleniti consequuntur fugiat laboriosam. Esse,
                     quasi?</p>
-                <button>Read More</button>
+                <button class="btn">Read More</button>
             </div>
         </div>
     </section>
-    <section class="sectionFlex">
+    <section class="sectionFlex wrapper2">
         <div class="sectionFlex_content box">
             <div class="sectionFlex_text">
                 <h2>Favourite Things</h2>
@@ -148,7 +158,7 @@
                     voluptates odio dolores. Ab, a! Officiis labore quis deleniti consequuntur fugiat laboriosam. Esse,
                     quasi?
                 </p>
-                <button>Read More</button>
+                <button class="btn">Read More</button>
             </div>
         </div>
 
@@ -165,8 +175,8 @@
     <!-- ************************************************************************************* -->
 
     <!-- Harper Journey section with image and text STARTS!!-->
-    <section class="wrapper">
-        <div class="sectionFive">
+    <section class="wrapper" >
+        <div  class="sectionFive" >
             <div class="oneImgContainer">
                 <img src="./assets/home-image-5.jpg" alt="picture of a person smiling">
             </div>
@@ -175,7 +185,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nihil sed, deleniti officia quae ad in
                     fugiat ipsum dicta sunt delectus non vel soluta, mollitia tempora facilis. Sunt, ipsum fugit? Lorem
                     ipsum dolor sit amet consectetur adipisicing elit. Molestiae, alias.</p>
-                <button>Find Out More</button>
+                <button class="btn">Find Out More</button>
             </div>
             
         </div>
@@ -187,9 +197,9 @@
     <section class="galleryContainer__section">
         <div class="galleryContainer wrapper">
             <ul class="imageGallery">
-                <li><img src="./assets/home-image-6.jpg" alt="corner view of a pink building"></li>
-                <li><img src="./assets/home-image-7.jpg" alt="an airplane in the sky"></li>
-                <li><img src="./assets/home-image-8.jpg" alt="pink and blue clouds"></li>
+                <li class="gallery__item"><img src="./assets/home-image-6.jpg" alt="corner view of a pink building"></li>
+                <li class="gallery__item"><img src="./assets/home-image-7.jpg" alt="an airplane in the sky"></li>
+                <li class="gallery__item"><img src="./assets/home-image-8.jpg" alt="pink and blue clouds"></li>
             </ul>
         </div>
     </section>
